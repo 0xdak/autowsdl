@@ -1,0 +1,11 @@
+[-] v1.1
+    [-] add force parameter, force to test even the response is unsuccessful
+    [-] extend tls vulnerability with sslscan command (tls1.0_1_2)
+    [-] multiservice mode with json file
+
+[+] v1.0
+    [+] tls unsupported vulnerability
+    [+] authorization missing vulnerability
+    [+] xxe - limited vulnerability (only interpreted as variable and returns value)
+    [+] testing one service at a time
+    [+] choice of sending requests to the specified proxy
