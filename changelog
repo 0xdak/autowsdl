@@ -1,9 +1,16 @@
-[-] v1.1
+[-] v1.1.1
+    [-] success codes to dict
     [-] add force parameter, force to test even the response is unsuccessful
     [-] extend tls vulnerability with sslscan command (tls1.0_1_2)
-    [-] multiservice mode with json file
 
-[+] v1.0
+[-] v1.1.0
+    [+] implement --from-json parameter, it provides singleservice/multiservice mode with json file
+    [+] WebService class implemented, every params loads to the instance of this class
+    [+] request timeout (3 seconds)
+    [+] setup.py
+
+
+[+] v1.0.0
     [+] tls unsupported vulnerability
     [+] authorization missing vulnerability
     [+] xxe - limited vulnerability (only interpreted as variable and returns value)

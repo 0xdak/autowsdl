@@ -1,4 +1,6 @@
-./.vscode
 *.xml
 *.log
 *.json
+.DS_Store
+__pycache__
+.vscode
