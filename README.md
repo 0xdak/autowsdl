@@ -11,7 +11,7 @@ The tool checks following vulnerabilities:
 - Missing Authorization
 - XML External Entity
 
-## Installation
+## Installation
 
 Install from GitHub directly:
 
