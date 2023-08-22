@@ -15,7 +15,7 @@ URL = 'https://github.com/0xdak/autowsdl'
 EMAIL = 'alidak583@gmail.com'
 AUTHOR = 'Ali Dak'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '1.1.0'
+VERSION = '1.1.1'
 
 REQUIRED = ['Click', 'requests']
 EXTRAS = {}

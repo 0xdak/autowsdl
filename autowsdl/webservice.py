@@ -2,7 +2,7 @@ import base64
 import copy
 import io
 
-VERSION = "v1.1.0"
+VERSION = "v1.1.1"
 
 headers_default = {
     'User-Agent': 'autowsdl_{} by yuznumara'.format(VERSION)
@@ -34,8 +34,8 @@ class WebService():
                 if isinstance(request_file, io.TextIOWrapper):
                     return request_file.read()
                 elif isinstance(request_file, str):
-                    f = open(request_file, 'r')
-                    return f.read()
+                    f = open(request_file, 'r', )
+                    return f.read().encode()
             except:
                 return None
         return None
