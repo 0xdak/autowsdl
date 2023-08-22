@@ -116,7 +116,7 @@ def main(url, from_json, request_file, headers, basic_auth, method, proxy, succe
             else:  # TODO --force parametresi enabled sa buraya bakmicaksın
                 logger.error("[*] " + str(response.status_code) +
                             " Response was not successful.")
-            return
+            continue
 
         logger.info("[*] " + str(response.status_code) +
                     " Response was successful. Starting to the tests.")
