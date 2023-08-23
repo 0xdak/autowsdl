@@ -1,5 +1,6 @@
-from . import autowsdl
-from . import webservice
+# from . import autowsdl
+# from . import webservice
+import webservice, autowsdl
 
 import click
 import logging

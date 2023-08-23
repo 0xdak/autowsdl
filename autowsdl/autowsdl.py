@@ -97,7 +97,7 @@ def check_xxe_vuln(response: requests.Response, ws):
                 updated_xml.replace("ampersant_here_", "&")
 
             response_xxe = make_request(
-                response.request.url, request_body=payload_result, method=response.request.method, headers=response.request.headers, proxies=ws.proxies)
+                response.request.url, request_body=payload_result.encode('utf-8'), method=response.request.method, headers=response.request.headers, proxies=ws.proxies)
             if 'autowsdl_by_yuznumara' in response_xxe.text:
                 return True
         except Exception as e:

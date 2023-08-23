@@ -32,7 +32,7 @@ class WebService():
         if request_file is not None:
             try:
                 if isinstance(request_file, io.TextIOWrapper):
-                    return request_file.read()
+                    return request_file.read().encode()
                 elif isinstance(request_file, str):
                     f = open(request_file, 'r', )
                     return f.read().encode()
