@@ -1,6 +1,6 @@
-# from . import autowsdl
-# from . import webservice
-import webservice, autowsdl
+from . import autowsdl
+from . import webservice
+# import webservice, autowsdl # for running from cli.py
 
 import click
 import logging
